@@ -19,6 +19,16 @@ module.exports = {
   lintOnSave: true,
   devServer: {
     publicPath // 和 publicPath 保持一致
+    // proxy: {
+    //   '/apii': {
+    //     target: 'http://117.50.23.122/',
+    //     ws: true,
+    //     changeOrigin: true,
+    //     pathRewrite: {
+    //       '^/apii': ''
+    //     }
+    //   }
+    // }
   },
   css: {
     loaderOptions: {
